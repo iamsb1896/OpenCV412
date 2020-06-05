@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv.test" >
+4
+5    <uses-sdk
+5-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:11:5-15:65
+10        android:name="android.test.InstrumentationTestRunner"
+10-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:11:22-75
+11        android:functionalTest="false"
+11-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:13:22-53
+13        android:label="Tests for org.opencv.test"
+13-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:15:22-63
+14        android:targetPackage="org.opencv.test" />
+14-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:12:22-61
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-65
+16-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-81
+17-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-67
+18-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-64
+19
+20    <uses-feature
+20-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-17:36
+21        android:name="android.hardware.camera"
+21-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-47
+22        android:required="false" />
+22-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-33
+23    <uses-feature
+23-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-20:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-57
+25        android:required="false" />
+25-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-33
+26    <uses-feature
+26-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+27        android:name="android.hardware.camera.front"
+27-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-53
+28        android:required="false" />
+28-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33
+29    <uses-feature
+29-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:36
+30        android:name="android.hardware.camera.front.autofocus"
+30-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-63
+31        android:required="false" />
+31-->[__tested_artifact__::OpenCV412] E:\Projects\NOOSVision\OpenCV412\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-33
+32
+33    <application android:debuggable="true" >
+33-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:7:5-9:19
+33-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:7:18-43
+34        <uses-library android:name="android.test.runner" />
+34-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:8:9-60
+34-->E:\Projects\NOOSVision\OpenCV412\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8299572936735910752.xml:8:23-57
+35    </application>
+36
+37</manifest>
