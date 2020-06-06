@@ -93,14 +93,6 @@ apply plugin: 'com.android.library'
 println "OpenCV: " + project.buildscript.sourceFile
 
 android {
-    signingConfigs {
-        release {
-            storeFile file('E:\\Projects\\ScAI\\app\\src\\main\\keystore\\NOOSTech_SCOT.jks')
-            storePassword 'NOOStech@2017'
-            keyPassword 'NOOStech@2017'
-            keyAlias = 'rel_key'
-        }
-    }
     compileSdkVersion 26
     //buildToolsVersion "x.y.z" // not needed since com.android.tools.build:gradle:3.0.0
 
